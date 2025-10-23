@@ -20,21 +20,18 @@ This Python script is designed for batch-converting various file types—includi
 
 ## Installation (Using PyCharm IDE)
 
-1. git sync  
-2. **Open the Project in PyCharm:** Open the repository folder as a project in PyCharm.
+1. Download code  
+   ```bash
+   git clone https://github.com/voidbydefault/rawERP_dumps_to_excel
+   ```
 
-2.  **Install Core Dependencies:**
-    Use PyCharm's built-in **Terminal** (located at the bottom of the IDE) to install all core dependencies listed in `requirements.txt`:
+3. **Open the Project in PyCharm:** Open the repository folder as a project in PyCharm.
+
+4.  **Install Core Dependencies:**
+    Use PyCharm's built-in features to install `requirements.txt` or use **Terminal** (located at the bottom of the IDE) to install all core dependencies listed in `requirements.txt`:
 
     ```bash
     pip install -r requirements.txt
-    ```
-
-3.  **Install Windows-Specific Dependency (Conditional):**
-    If you are running the script on **Windows** and intend to use the `.xlsb` output format, you must also install the `pywin32` package:
-
-    ```bash
-    pip install pywin32
     ```
 
 ## Usage
