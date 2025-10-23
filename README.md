@@ -36,14 +36,13 @@ This Python script is designed for batch-converting various file types—includi
 
 ## Usage
 
-1.  Save the script (e.g., as `converter.py`).
-2.  Run the script from your terminal:
+1.  Click on play icon in PyCharm IDE to run the script or use terminal:
 
     ```bash
     python converter.py
     ```
 
-3.  Follow the interactive prompts:
+2.  Follow the interactive prompts:
     *   **Enter path to source folder:** Provide the directory containing the files you wish to convert.
     *   **Convert to format (xlsx/xlsb):** Specify the desired output format.
 
